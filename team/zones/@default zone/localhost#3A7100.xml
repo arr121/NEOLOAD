@@ -1,0 +1,50 @@
+<lg-host hostname="localhost:7100" loadWeight="1" sapSupport="false"
+    standalone="false" supportWANEmulation="false"
+    uid="a6d161a6-8cc2-40d2-97b6-6a87776ff083" version="6.10.0;build=20190514-29">
+    <!--****** LG NETWORK INTERFACES ******-->
+    <lg-networkiface description="Software Loopback Interface 1"
+        enabled="false" isLoopBack="true" name="lo">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="127.0.0.1">
+            <ip value="127.0.0.1"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="0:0:0:0:0:0:0:1">
+            <ip value="0:0:0:0:0:0:0:1"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="AnchorFree TAP-Windows Adapter V9"
+        enabled="false" isLoopBack="false" name="eth4">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:40dd:1f8:1cd4:f65e%eth4">
+            <ip value="fe80:0:0:0:40dd:1f8:1cd4:f65e%eth4"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface description="TAP-Windows Adapter V9"
+        enabled="false" isLoopBack="false" name="eth2">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="fe80:0:0:0:447d:edd1:5a6a:6f7e%eth2">
+            <ip value="fe80:0:0:0:447d:edd1:5a6a:6f7e%eth2"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+    <lg-networkiface
+        description="Realtek RTL8822BE 802.11ac PCIe Adapter"
+        enabled="false" isLoopBack="false" name="wlan2">
+        <!--****** LG ADDRESSES ******-->
+        <lg-address enabled="false" hostname="ranga.fritz.box">
+            <ip value="192.168.178.21"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fd00:0:0:0:2498:a3aa:aba2:79d2">
+            <ip value="fd00:0:0:0:2498:a3aa:aba2:79d2"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fd00:0:0:0:5dc1:43f:3163:4bff">
+            <ip value="fd00:0:0:0:5dc1:43f:3163:4bff"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fe80:0:0:0:5dc1:43f:3163:4bff%wlan2">
+            <ip value="fe80:0:0:0:5dc1:43f:3163:4bff%wlan2"/>
+        </lg-address>
+        <!--****** END LG ADDRESSES ******-->
+    </lg-networkiface>
+</lg-host>

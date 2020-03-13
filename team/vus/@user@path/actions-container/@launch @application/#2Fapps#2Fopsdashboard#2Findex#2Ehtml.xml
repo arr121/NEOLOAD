@@ -1,0 +1,121 @@
+<http-page executeResourcesDynamically="false"
+    name="/apps/opsdashboard/index.html"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/2e89befa-b6e6-47a8-be06-8d117a4fa985.zip"
+    slaProfileEnabled="false" thinkTime="0"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="2e89befa-b6e6-47a8-be06-8d117a4fa985">
+    <embedded-action>585ff28b-a566-4e52-a396-54241169dd32</embedded-action>
+    <embedded-action>8f9eae76-e4f4-4517-8f91-fa1b5d1a0e9a</embedded-action>
+    <embedded-action>a0ddef82-f46e-4767-a3cc-c6a2ffb97ce9</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_2e89befa-b6e6-47a8-be06-8d117a4fa985.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/apps/opsdashboard/index.html"
+    path="/apps/opsdashboard/index.html" postType="1"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/2e89befa-b6e6-47a8-be06-8d117a4fa985.zip"
+    recordedResponseCode="200" responseSize="9953"
+    serverUid="www.arcgis.com" slaProfileEnabled="false"
+    uid="585ff28b-a566-4e52-a396-54241169dd32" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_585ff28b-a566-4e52-a396-54241169dd32.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_585ff28b-a566-4e52-a396-54241169dd32.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="sec-fetch-site" value="none"/>
+    <header name="accept-language" value="en-GB,en-US;q=0.9,en;q=0.8"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="cache-control" value="max-age=0"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Fri, 13 Mar 2020 15:56:26 GMT&#xd;
+content-type: text/html&#xd;
+content-length: 2099&#xd;
+content-encoding: br&#xd;
+last-modified: Wed, 11 Dec 2019 04:18:49 GMT&#xd;
+etag: "cae9b1651e7bd7b3a62e56190562aa77"&#xd;
+server: AmazonS3&#xd;
+cache-control: private, max-age=0&#xd;
+expires: -1&#xd;
+x-cached: HIT&#xd;
+link: &lt;https://www.arcgis.com/apps/opsdashboard/index.html&gt;; rel="canonical"</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/apps/opsdashboard/assets/vendor-36211ead39d5c1e27a4b693f05e3f1af.css"
+    path="/apps/opsdashboard/assets/vendor-36211ead39d5c1e27a4b693f05e3f1af.css"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/2e89befa-b6e6-47a8-be06-8d117a4fa985.zip"
+    recordedResponseCode="200" responseSize="13231"
+    serverUid="www.arcgis.com" slaProfileEnabled="false"
+    uid="8f9eae76-e4f4-4517-8f91-fa1b5d1a0e9a" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_8f9eae76-e4f4-4517-8f91-fa1b5d1a0e9a.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_8f9eae76-e4f4-4517-8f91-fa1b5d1a0e9a.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://www.arcgis.com/apps/opsdashboard/index.html"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en-GB,en-US;q=0.9,en;q=0.8"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="accept" value="text/css,*/*;q=0.1"/>
+    <header name="sec-fetch-dest" value="style"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Fri, 13 Mar 2020 15:56:26 GMT&#xd;
+content-type: text/css&#xd;
+content-length: 2210&#xd;
+content-encoding: br&#xd;
+last-modified: Wed, 11 Dec 2019 04:18:48 GMT&#xd;
+etag: "fe098a5f5bcd808ad3830c1461efb8bc"&#xd;
+server: AmazonS3&#xd;
+cache-control: max-age=1800&#xd;
+x-cached: HIT&#xd;
+link: &lt;https://www.arcgis.com/apps/opsdashboard/assets/vendor-36211ead39d5c1e27a4b693f05e3f1af.css&gt;; rel="canonical"</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
+<http-action actionType="1" contentType="text/css"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET"
+    name="/apps/opsdashboard/assets/app-light-a4ce40813167ba31a775b2184a79f86e.css"
+    path="/apps/opsdashboard/assets/app-light-a4ce40813167ba31a775b2184a79f86e.css"
+    postType="1"
+    recordedArtifactZipFileName="team/vus/@user@path/%resources%/recorded-artifacts/2e89befa-b6e6-47a8-be06-8d117a4fa985.zip"
+    recordedResponseCode="200" responseSize="276829"
+    serverUid="www.arcgis.com" slaProfileEnabled="false"
+    uid="a0ddef82-f46e-4767-a3cc-c6a2ffb97ce9" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_a0ddef82-f46e-4767-a3cc-c6a2ffb97ce9.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_a0ddef82-f46e-4767-a3cc-c6a2ffb97ce9.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://www.arcgis.com/apps/opsdashboard/index.html"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="accept-language" value="en-GB,en-US;q=0.9,en;q=0.8"/>
+    <header name="accept-encoding" value="gzip, deflate, br"/>
+    <header name="accept" value="text/css,*/*;q=0.1"/>
+    <header name="sec-fetch-dest" value="style"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.132 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Fri, 13 Mar 2020 15:56:26 GMT&#xd;
+content-type: text/css&#xd;
+content-length: 31264&#xd;
+content-encoding: br&#xd;
+last-modified: Wed, 11 Dec 2019 04:18:34 GMT&#xd;
+etag: "c57d1cf2d00d82feea1f86e87d19cc77"&#xd;
+server: AmazonS3&#xd;
+cache-control: max-age=1800&#xd;
+x-cached: HIT&#xd;
+link: &lt;https://www.arcgis.com/apps/opsdashboard/assets/app-light-a4ce40813167ba31a775b2184a79f86e.css&gt;; rel="canonical"</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

@@ -35,11 +35,11 @@
         <lg-address enabled="false" hostname="ranga.fritz.box">
             <ip value="192.168.178.21"/>
         </lg-address>
-        <lg-address enabled="false" hostname="fd00:0:0:0:2498:a3aa:aba2:79d2">
-            <ip value="fd00:0:0:0:2498:a3aa:aba2:79d2"/>
-        </lg-address>
         <lg-address enabled="false" hostname="fd00:0:0:0:5dc1:43f:3163:4bff">
             <ip value="fd00:0:0:0:5dc1:43f:3163:4bff"/>
+        </lg-address>
+        <lg-address enabled="false" hostname="fd00:0:0:0:f1b3:7f68:4edc:7225">
+            <ip value="fd00:0:0:0:f1b3:7f68:4edc:7225"/>
         </lg-address>
         <lg-address enabled="false" hostname="fe80:0:0:0:5dc1:43f:3163:4bff%wlan2">
             <ip value="fe80:0:0:0:5dc1:43f:3163:4bff%wlan2"/>
